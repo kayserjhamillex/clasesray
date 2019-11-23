@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Maria Axuiliadora</string>
+    <string name="about_us_nosotros">Nosotros</string>
+    <string name="about_us_autores">Equipo de Desarrollo</string>
+    <string name="autor1">Anibal Jhamil Huaman Verastein</string>
+    <string name="autor2">Jhenny Yessica Contreras Llantoy</string>
+    <string name="autor3">Carmen Rossio Rios Naula</string>
+    <string name="usuario">Jhamilex</string>
+    <string name="password">123456</string>
+</resources>
