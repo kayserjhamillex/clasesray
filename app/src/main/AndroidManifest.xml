@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AuthActivity"></activity>
+        <activity android:name=".SpecialtyActivity"></activity>
+        <activity android:name=".AuthActivity" />
         <activity android:name=".ResetPassword" />
         <activity android:name=".SingUp" />
         <activity android:name=".AboutUs" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".SplashScreen"
-                  android:theme="@style/SplashScreenTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,4 +25,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

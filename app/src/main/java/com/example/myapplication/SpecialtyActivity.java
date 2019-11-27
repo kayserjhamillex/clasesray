@@ -7,18 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class AboutUs extends AppCompatActivity {
+public class SpecialtyActivity extends AppCompatActivity {
 
     Button btnHome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_us);
+        setContentView(R.layout.activity_specialty);
         btnHome = findViewById(R.id.btnHome);
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent o = new Intent(AboutUs.this,
+                Intent o = new Intent(SpecialtyActivity.this,
                         MainActivity.class);
                 startActivity(o);
             }
