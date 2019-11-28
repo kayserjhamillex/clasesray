@@ -10,6 +10,7 @@ import android.widget.Button;
 public class SpecialtyActivity extends AppCompatActivity {
 
     Button btnHome;
+    //pinshi comentario
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
