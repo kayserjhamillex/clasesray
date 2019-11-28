@@ -10,14 +10,14 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button btnAbaoutUs;
-    Button btnSpecialty;
+    Button btnSpeciality;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btnAbaoutUs = findViewById(R.id.btnAbaoutUs);
-        btnSpecialty = findViewById(R.id.btnSpecialty);
+        btnSpeciality = findViewById(R.id.btnSpeciality);
         btnAbaoutUs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(o);
             }
         });
-        btnSpecialty.setOnClickListener(new View.OnClickListener() {
+        btnSpeciality.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent o = new Intent(MainActivity.this,

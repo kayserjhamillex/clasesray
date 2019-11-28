@@ -26,9 +26,8 @@
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btnSpecialty"
-            android:text="Especialidades">
+            android:id="@+id/btnSpeciality"
+            android:text="Especialidad">
         </androidx.appcompat.widget.AppCompatButton>
-
     </androidx.appcompat.widget.LinearLayoutCompat>
 </androidx.constraintlayout.widget.ConstraintLayout>

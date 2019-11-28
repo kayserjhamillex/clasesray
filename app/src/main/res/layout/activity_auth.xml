@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,18 +9,15 @@
     android:keepScreenOn="false"
     android:keyboardNavigationCluster="false"
     tools:context=".AuthActivity">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="5"
         android:orientation="vertical">
-
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="wrap_content"
                 android:layout_height="350px"
@@ -28,9 +26,9 @@
                 android:layout_marginRight="50dp"
                 android:layout_marginBottom="0dp"
                 android:background="@drawable/ic_doctor"
-                android:gravity="center"></androidx.appcompat.widget.AppCompatImageView>
+                android:gravity="center">
+            </androidx.appcompat.widget.AppCompatImageView>
         </androidx.appcompat.widget.LinearLayoutCompat>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,6 +36,7 @@
 
         <EditText
             android:id="@+id/txtUser"
+            android:inputType="textEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></EditText>
 
@@ -45,18 +44,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Contraseña"></TextView>
-
         <EditText
             android:id="@+id/txtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"></EditText>
 
-        <TextView
+        <Button
             android:id="@+id/btnRecover"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Recuperar Contraseña"></TextView>
+            android:text="Recuperar Contraseña"></Button>
 
         <Button
             android:id="@+id/btnLogin"
