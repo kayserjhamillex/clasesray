@@ -39,18 +39,22 @@ public class Users {
     public static List<Users> getUsers(){
         ArrayList<Users> list = new ArrayList<>();
         Users o = new Users();
+        //nombre del desarrollador dev.v0
         o.username = "jhamillex@gmail.com";
         o.password = "jhamillex";
         list.add(o);
         Users t = new Users();
+        //este es el nombre de mi enamorada attm:jhamillex
         t.username = "thania@gmail.com";
         t.password = "thania";
         list.add(t);
         Users x = new Users();
+        //nombre del desarrollador dev.v1
         x.username = "jhenny@gmail.com";
         x.password = "jhenny";
         list.add(x);
         Users y = new Users();
+        //nombre del desarrollador dev.v2
         y.username = "chio@gmail.com";
         y.password = "chio";
         list.add(y);
