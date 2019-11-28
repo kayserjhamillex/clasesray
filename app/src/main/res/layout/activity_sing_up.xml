@@ -54,7 +54,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reconfirmar Contraseña"></TextView>
+            android:text="confirmar conraseña"></TextView>
         <EditText  android:id="@+id/txtRePassword"
             android:inputType="textPassword"
             android:layout_width="match_parent"
