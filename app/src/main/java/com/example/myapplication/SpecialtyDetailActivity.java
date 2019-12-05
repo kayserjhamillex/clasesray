@@ -7,30 +7,29 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class SpecialtyActivity extends AppCompatActivity {
+public class SpecialtyDetailActivity extends AppCompatActivity {
 
     Button btnHome;
-    Button btnDetalle;
-    //pinshi comentario
+    Button btnCita;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_specialty);
+        setContentView(R.layout.activity_specialty_detail);
         btnHome = findViewById(R.id.btnHome);
-        btnDetalle = findViewById(R.id.btnDetalle);
+        btnCita = findViewById(R.id.btnCita);
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent o = new Intent(SpecialtyActivity.this,
+                Intent o = new Intent(SpecialtyDetailActivity.this,
                         MainActivity.class);
                 startActivity(o);
             }
         });
-        btnDetalle.setOnClickListener(new View.OnClickListener() {
+        btnCita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent o = new Intent(SpecialtyActivity.this,
-                        SpecialtyDetailActivity.class);
+                Intent o = new Intent(SpecialtyDetailActivity.this,
+                        MainActivity.class);
                 startActivity(o);
             }
         });
