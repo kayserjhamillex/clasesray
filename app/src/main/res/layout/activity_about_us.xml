@@ -21,7 +21,7 @@
             android:gravity="center"
             android:text="NOSOTROS"
             android:textColor="#000000"
-            android:textSize="25dp"
+            android:textSize="24dp"
             android:textStyle="bold"></TextView>
 
         <TextView
@@ -35,12 +35,13 @@
             android:gravity="center"
             android:text="MISIÓN"
             android:textColor="#000000"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:textStyle="bold"></TextView>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="14dp"
             android:text="Contribuir al cuidado de la vida y la recuperación de la salud, mediante un servicio integral, seguro, humanizado y diferenciad con personal idóneo y una excelente gestión que garantice creació de valor a sus grupos sociales objetivo, sostenibilidad económica  y permanencia en el tiempo."></TextView>
 
         <TextView
@@ -49,12 +50,13 @@
             android:gravity="center"
             android:text="VISIÓN"
             android:textColor="#000000"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:textStyle="bold"></TextView>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="14dp"
             android:text="Ser para el 2020 una institución de salud de alta complejidad, líder en atención integral, segura, humanizada y centro de referencia a nivel nacional e internacional."></TextView>
 
         <TextView
@@ -63,13 +65,14 @@
             android:gravity="center"
             android:text="VALORES"
             android:textColor="#000000"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:textStyle="bold"></TextView>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:textSize="14dp"
             android:text="Ética profesional">
 
         </TextView>
