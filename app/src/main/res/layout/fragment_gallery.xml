@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:textAlignment="textStart">
+        <!--tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-53dp"-->
+        <TextView
+            android:id="@+id/text_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NOSOTROS"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MISIÓN"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Contribuir al cuidado de la vida y la recuperación de la salud, mediante un servicio integral, seguro, humanizado y diferenciad con personal idóneo y una excelente gestión que garantice creació de valor a sus grupos sociales objetivo, sostenibilidad económica  y permanencia en el tiempo."></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="VISIÓN"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Ser para el 2020 una institución de salud de alta complejidad, líder en atención integral, segura, humanizada y centro de referencia a nivel nacional e internacional."></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="VALORES"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:text="Ética profesional">
+
+        </TextView>
+
+        <!-- <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/about_us_autores"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/autor1"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/autor2"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/autor3"></TextView>-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#800080"
+            android:text="Atras"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"></androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>
