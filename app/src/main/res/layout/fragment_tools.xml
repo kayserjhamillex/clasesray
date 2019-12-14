@@ -4,6 +4,72 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/general"></androidx.appcompat.widget.AppCompatImageView>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00BFFF"
+                    android:orientation="vertical">
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="Medicina Genwral"></androidx.appcompat.widget.AppCompatTextView>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:gravity="left"
+                        android:layout_height="5dp"
+                        android:src="@drawable/estrellas"></androidx.appcompat.widget.AppCompatImageView>
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="Precio: s/. 80.00"></androidx.appcompat.widget.AppCompatTextView>
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="7dp"
+                        android:text="Detalles"></androidx.appcompat.widget.AppCompatTextView>
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:orientation="horizontal">
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/btnRecover"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ff0000"
+                            android:text="Reservar Cita"
+                            android:textSize="10dp"
+                            android:gravity="right">
+                        </androidx.appcompat.widget.AppCompatTextView>
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:gravity="right"
+                            android:paddingTop="25dp"
+                            android:background="@drawable/corazonn"></androidx.appcompat.widget.AppCompatImageButton>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
     <TextView
         android:id="@+id/text_tools"
         android:layout_width="match_parent"

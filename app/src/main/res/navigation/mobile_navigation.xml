@@ -30,16 +30,16 @@
         android:label="@string/menu_especialidades"
         tools:layout="@layout/fragment_tools" />
 
-    <fragment
+   <!-- <fragment
         android:id="@+id/nav_tools1"
         android:name="com.example.centromedico.ui.tools.ToolsFragment"
-        android:label="@string/menu_contactanos"
-        tools:layout="@layout/fragment_tools" />
+        android:label="@string/menu_reservas_realizadas"
+        tools:layout="@layout/fragment_tools" />-->
 
     <fragment
         android:id="@+id/nav_share"
         android:name="com.example.centromedico.ui.share.ShareFragment"
-        android:label="@string/menu_reservas_realizadas"
+        android:label="@string/menu_contactanos"
         tools:layout="@layout/fragment_share" />
 
     <fragment

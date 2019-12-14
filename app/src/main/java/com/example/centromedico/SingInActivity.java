@@ -26,6 +26,7 @@ public class SingInActivity extends AppCompatActivity {
         btnRecover = findViewById(R.id.btnRecover);
         txtUser = findViewById(R.id.txtUser);
         txtPassword = findViewById(R.id.txtPassword);
+        txtUser.requestFocus();
         btnSingUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
