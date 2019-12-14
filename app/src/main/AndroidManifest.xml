@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PruebaActivity"></activity>
+        <activity android:name=".DetalleEspecialidadActivity"></activity>
+        <activity android:name=".ElegrHoraActivity" />
+        <activity android:name=".EscojerFechaActivity" />
+        <activity android:name=".PruebaActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
