@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".detalleespecialidadActivity"></activity>
+        <!--
+         <activity android:name=".ContactoListActivity"></activity>
+         REMPLAZAR POR:
+         <activity android:name=".CentroMedicoActivity">
+         -->
+
+        <activity android:name=".detalleespecialidadActivity" />
+        <activity android:name=".CentroMedicoActivity" />
         <activity android:name=".elegirhoraActivity" />
         <activity android:name=".elegirfechaActivity" />
         <activity android:name=".PasswordRecoveryActivity" />
@@ -20,7 +27,7 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".CentroMedicoActivity">
+        <activity android:name=".ContactoListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
