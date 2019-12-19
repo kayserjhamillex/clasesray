@@ -31,20 +31,21 @@
         tools:layout="@layout/fragment_tools" />
 
     <fragment
-        android:id="@+id/nav_tools1"
-        android:name="com.example.centromedico.ui.tools.ToolsFragment"
-        android:label="@string/menu_contactanos"
-        tools:layout="@layout/fragment_tools" />
-
-    <fragment
         android:id="@+id/nav_share"
         android:name="com.example.centromedico.ui.share.ShareFragment"
-        android:label="@string/menu_reservas_realizadas"
+        android:label="@string/menu_contactanos"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_send"
         android:name="com.example.centromedico.ui.send.SendFragment"
+        android:label="@string/menu_reservas_realizadas"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_send1"
+        android:name="com.example.centromedico.ui.send.SendFragment"
         android:label="@string/menu_Salir"
         tools:layout="@layout/fragment_send" />
+
 </navigation>

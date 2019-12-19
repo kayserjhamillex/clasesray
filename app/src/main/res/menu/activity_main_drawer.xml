@@ -31,11 +31,11 @@
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/nav_send1"
+                android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
                 android:title="@string/menu_reservas_realizadas" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_send1"
                 android:icon="@drawable/ic_menu_send"
                 android:title="@string/menu_Salir" />
         </menu>

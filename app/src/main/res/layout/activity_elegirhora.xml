@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".elegirhoraActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="652dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ESPECIALIDAD DE MEDICINA GENERAL"
+            tools:layout_editor_absoluteX="82dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="por favor elija la hora mas factible de su cita"
+            tools:layout_editor_absoluteX="82dp"
+            tools:layout_editor_absoluteY="151dp" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="93dp"
+                        android:layout_height="93dp"
+                        android:background="@drawable/reloj"
+                        tools:layout_editor_absoluteX="55dp"
+                        tools:layout_editor_absoluteY="347dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9am"
+                        android:paddingTop="5dp"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"
+                        tools:layout_editor_absoluteX="301dp"
+                        tools:layout_editor_absoluteY="318dp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="93dp"
+                        android:layout_height="93dp"
+                        android:background="@drawable/reloj"
+                        tools:layout_editor_absoluteX="55dp"
+                        tools:layout_editor_absoluteY="347dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9am"
+                        android:paddingTop="5dp"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"
+                        tools:layout_editor_absoluteX="301dp"
+                        tools:layout_editor_absoluteY="318dp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:background="@drawable/reloj"
+                        android:layout_width="93dp"
+                        android:layout_height="93dp"
+                        tools:layout_editor_absoluteX="55dp"
+                        tools:layout_editor_absoluteY="347dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9am"
+                        android:paddingTop="5dp"
+                        android:layout_gravity="center"
+                        android:textSize="18dp"
+                        tools:layout_editor_absoluteX="301dp"
+                        tools:layout_editor_absoluteY="318dp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>
