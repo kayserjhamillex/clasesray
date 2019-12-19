@@ -7,6 +7,10 @@ public class Contacto {
     public String nickname;
     public String image;
 
+    public String getSmallImage(){
+        return this.image;
+    };
+
     public Contacto(String _phone, String _nickname,String _image) {
         this.phone = _phone;
         this.nickname = _nickname;
