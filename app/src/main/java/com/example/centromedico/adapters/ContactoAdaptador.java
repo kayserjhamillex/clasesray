@@ -9,22 +9,30 @@ import android.widget.TextView;
 
 import com.example.centromedico.R;
 import com.example.centromedico.models.Contacto;
+import com.android.volley.toolbox.ImageLoader;
+import com.android.volley.toolbox.NetworkImageView;
 
 import java.util.List;
 
 
 public class ContactoAdaptador extends ArrayAdapter<Contacto> {
     Context context;
+    ImageLoader queue;
     private class ViewHolder {
         TextView phone;
         TextView nickname;
+        NetworkImageView image;
 
         private ViewHolder() {
         }
     }
-    public ContactoAdaptador(Context context, List<Contacto> items) {
-        super(context, 0, items);
-        this.context = context;
+    public ContactoAdaptador(
+            Context context,
+            List<Contacto> items,
+            ImageLoader _queue) {
+                super(context, 0, items);
+                this.context = context;
+                this.queue = _queue;
     }
     public View getView(final int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
@@ -35,6 +43,7 @@ public class ContactoAdaptador extends ArrayAdapter<Contacto> {
             holder = new ViewHolder();
             holder.phone = (TextView) convertView.findViewById(R.id.phone);
             holder.nickname = (TextView) convertView.findViewById(R.id.nickname);
+            holder.image = (NetworkImageView) convertView.findViewById(R.id.image); //<----- Notar esta linea
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
