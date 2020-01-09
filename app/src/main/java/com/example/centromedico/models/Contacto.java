@@ -76,7 +76,7 @@ public class Contacto {
     }
     public static void sendRequestPOST(QueueUtils.QueueObject o, final ContactoListActivity _interface) {
         String url = "http://rrojasen.alwaysdata.net/purchaseorders.json";
-        url = "http://fipo.equisd.com/api/users/new.json";
+        url = "http://fipo.equisd.com/api/users.json";
         //url = "http://192.168.58.3:8056/api/users/new.json"; cuando se encuentra en una computadora
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
@@ -88,7 +88,7 @@ public class Contacto {
                             if (_response.has("object")) {
                                 JSONObject object_response = null;
                                 try {
-                                    object_response = _response.getJSONObject("data");
+                                    object_response = _response.getJSONObject("object");
                                 } catch (JSONException e) {
                                     e.printStackTrace();
                                 }
