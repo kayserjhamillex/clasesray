@@ -2,8 +2,144 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AROMAS HOTAL ES LO MEJOR PARA TY"
+                android:textAlignment="center">
+
+            </TextView>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40px"
+                android:src="@drawable/habpromodos">
+
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bfecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40px"
+                    android:text="FECHA">
+
+                </Button>
+
+                <EditText
+                    android:id="@+id/bfechaT2"
+                    android:layout_width="229dp"
+                    android:layout_height="77dp"
+                    android:layout_marginTop="40px"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Elije Fecha">
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bfechaS"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40px"
+                    android:text="FECHA">
+
+                </Button>
+
+                <EditText
+                    android:id="@+id/bdechasT1"
+                    android:layout_width="229dp"
+                    android:layout_height="77dp"
+                    android:layout_marginTop="40px"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Elije Fecha">
+
+                </EditText>
+
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="315dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="40px">
+
+            </Spinner>
+
+            <Button
+                android:id="@+id/btnreservar"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40px"
+                android:text="BUSCAR">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NUESTRAS HABITACIONES"
+                android:layout_marginTop="40px"
+                android:textAlignment="center">
+
+            </TextView>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40px"
+                android:src="@drawable/habpromodos">
+
+            </ImageButton>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40px"
+                android:src="@drawable/habpromodos">
+
+            </ImageButton>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40px"
+                android:src="@drawable/habpromodos">
+
+            </ImageButton>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
     <TextView
         android:id="@+id/text_home"
         android:layout_width="match_parent"

@@ -42,28 +42,21 @@ public class Users {
         ArrayList<Users> list = new ArrayList<>();
         Users o = new Users();
         //nombre del desarrollador dev.v0
-        o.username = "jhamillex@gmail.com";
-        o.password = "jhamillex";
-        o.FullName = "Anibal Jhamil Huaman Verastein";
+        o.username = "daisy@gmail.com";
+        o.password = "daisy";
+        o.FullName = "Daisy Yolisa Muños Santos";
         list.add(o);
         Users t = new Users();
-        //este es el nombre de mi enamorada attm:jhamillex
-        t.username = "thania@gmail.com";
-        t.password = "thania";
-        o.FullName = "Thania Del Castillo Hernandez";
+        t.username = "fanny@gmail.com";
+        t.password = "fanny";
+        o.FullName = "Epifania Meneses Taipe";
         list.add(t);
         Users x = new Users();
         //nombre del desarrollador dev.v1
-        x.username = "jhenny@gmail.com";
-        x.password = "jhenny";
-        o.FullName = "Jhenny Yessica Contreras Llantoy";
+        x.username = "nory@gmail.com";
+        x.password = "nory";
+        o.FullName = "Ruth Nory Figueroa Mosco";
         list.add(x);
-        Users y = new Users();
-        //nombre del desarrollador dev.v2
-        y.username = "chio@gmail.com";
-        y.password = "chio";
-        o.FullName = "Carmen Rossio Rios Naula";
-        list.add(y);
         return list;
     }
 }
